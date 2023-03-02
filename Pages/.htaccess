@@ -1,0 +1,50 @@
+RewriteEngine On
+
+
+RewriteRule ^Dashboard?$ home.php
+RewriteRule ^user-account?$ user_account.php
+RewriteRule ^user-account-edit?$ user_account_view.php 
+RewriteRule ^user-account-add?$ user.new.php
+RewriteRule ^change_password?$ password_change.php
+RewriteRule ^student_registration?$ enrollment.php
+RewriteRule ^Enrollment?$ students.php
+RewriteRule ^Enrollment-view?$ student.view.php 
+
+
+
+RewriteRule ^Uploading?$ student.upload.php
+
+RewriteRule ^Add-advisory?$ add.advisory.php
+RewriteRule ^Subjects?$ subject.php
+RewriteRule ^Subjects-add?$ subject.new.php
+RewriteRule ^Subjects-view?$ subject.view.php
+
+
+RewriteRule ^Faculty-load?$ faculty.load.php
+RewriteRule ^Advisory?$ advisory.page.php
+
+RewriteRule ^Fac-Advisory?$ fac.advisory.php
+
+RewriteRule ^Records?$ enrolled.php
+RewriteRule ^Records-view?$ enrolled.view.php
+
+RewriteRule ^Withdraw-Enrollment?$ Withdraw.enrollment.php
+
+RewriteRule ^Withdraw?$ withdraw.php
+RewriteRule ^Withdraw-view?$ withdraw.view.php
+
+RewriteRule ^Reporting?$ reporting.php
+
+
+
+
+RewriteRule ^Sections?$ sections.php
+RewriteRule ^Sections-add?$ sections.new.php
+RewriteRule ^Sections-view?$ sections.view.php
+RewriteRule ^Profile-Upload?$ profile.upload.php
+
+
+
+
+#ErrorDocument 404 http://localhost/www/phLogin.php 
+

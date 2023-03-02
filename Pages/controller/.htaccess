@@ -1,0 +1,24 @@
+RewriteEngine On
+RewriteRule ^change_password?$ change_password.php
+
+
+RewriteRule ^add-account?$ add_account.php
+RewriteRule ^update-account?$ up_account.php
+
+RewriteRule ^stud-register?$ stud-register.php 
+RewriteRule ^stud-update?$ stud-update.php 
+
+RewriteRule ^add-section?$ add-section.php 
+RewriteRule ^update-section?$ up-section.php 
+
+RewriteRule ^add-subject?$ add_subject.php 
+RewriteRule ^update-subject?$ up-subject.php
+
+
+RewriteRule ^add-advisory?$ add-advisory.php
+
+
+
+
+#ErrorDocument 404 http://localhost/www/phLogin.php 
+
